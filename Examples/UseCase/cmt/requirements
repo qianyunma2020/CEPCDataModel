@@ -1,0 +1,15 @@
+package UseCase
+
+use             SniperKernel             v*
+use             AlgLevelParallel         v*    /data/BOSSParallel/sniper/ParaPack/ 
+use             ROOT                     v*    Externals 
+use             ALPDataIO                v*    /data/BOSSParallel/CEPCDataModel/ 
+
+
+library         UseCase        *.cc 
+
+#macro_append linkopts " `clhep-config --include` " 
+
+apply_pattern install_python_modules          
+apply_pattern install_more_includes more=UseCase
+apply_pattern linker_library library="UseCase"

@@ -1,0 +1,32 @@
+[
+  {
+    "AlgName": "Alg1",
+    "InputList": [ ],
+    "OutputList": [ "data1" ]
+  },
+  {
+    "AlgName": "Alg2",
+    "InputList": [ "data1" ],
+    "OutputList": [ "data2" ]
+  },
+  {
+    "AlgName": "Alg3",
+    "InputList": [ "data2", "data5" ],
+    "OutputList": [ ]
+  },
+  {
+    "AlgName": "Alg4",
+    "InputList": [ ],
+    "OutputList": [ "data4" ]
+  },
+  {
+    "AlgName": "Alg5",
+    "InputList": [ "data2", "data4" ],
+    "OutputList": [ "data5" ]
+  },
+  {
+    "AlgName": "Alg6",
+    "InputList": [ "data5" ],
+    "OutputList": [ ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "AlgName": "Alg1",
+    "MaxInstanceCount": 12,
+    "NeededResources": [ "resource1" ],
+    "InputList": [ ],
+    "OutputList": [ "data1" ]
+  },
+  {
+    "AlgName": "Alg2",
+    "MaxInstanceCount": 8,
+    "NeededResources": [ "resource2" ],
+    "InputList": [ "data1" ],
+    "OutputList": [ "data2" ]
+  },
+  {
+    "AlgName": "Alg3",
+    "MaxInstanceCount": 12,
+    "NeededResources": [ "resource3" ],
+    "InputList": [ "data2", "data5" ],
+    "OutputList": [ ]
+  },
+  {
+    "AlgName": "Alg4",
+    "MaxInstanceCount": 12,
+    "NeededResources": [ "resource4" ],
+    "InputList": [ ],
+    "OutputList": [ "data4" ]
+  },
+  {
+    "AlgName": "Alg5",
+    "MaxInstanceCount": 6,
+    "NeededResources": [ "resource7" ],
+    "InputList": [ "data2", "data4" ],
+    "OutputList": [ "data5" ]
+  },
+  {
+    "AlgName": "Alg6",
+    "MaxInstanceCount": 12,
+    "NeededResources": [ "resource5", "resource6" ],
+    "InputList": [ "data5" ],
+    "OutputList": [ ]
+  }
+]

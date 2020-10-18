@@ -1,0 +1,1 @@
+CommonAlgTool_cc_dependencies =  ../src/CommonAlgTool.cc   /data/BOSSParallel/CEPCDataModel/Examples/UseCase/UseCase/CommonAlgTool.h  $(bin)UseCase_deps/CommonAlgTool_cc.stamp

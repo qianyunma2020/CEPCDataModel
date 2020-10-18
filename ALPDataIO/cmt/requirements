@@ -1,0 +1,13 @@
+package ALPDataIO
+
+use SniperKernel   v*
+use ROOT           v*   Externals
+use PODIO          v*   Externals
+
+
+library     ALPDataIO   *.cc
+
+apply_pattern install_python_modules          
+apply_pattern install_more_includes more=ALPDataIO
+apply_pattern linker_library library="ALPDataIO"
+

@@ -1,0 +1,180 @@
+**************************************************
+***          Welcome to SNiPER Python          ***
+**************************************************
+Running @ gridtb008.ihep.ac.cn on Wed Jul 15 01:53:24 2020
+edm4hep_events-12w.root
+outfile.root
+
+ALPManagerTask.ALPManagerTask  DEBUG: Function ALPManagerTask::ALPManagerTask() step 1.
+ALPManagerTask.ALPManagerTask  DEBUG: Function ALPManagerTask::ALPManagerTask() step 2.
+ALPManagerTask.ALPManagerTask  DEBUG: Function ALPManagerTask::ALPManagerTask() step 3.
+ALPManagerTask.ALPManagerTask  DEBUG: Function ALPManagerTask::ALPManagerTask() step 4.
+ALPManagerTask.ALPManagerTask  DEBUG: Function ALPManagerTask::ALPManagerTask() step 5.
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool(void* arg) says hello.
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool(void* arg) step1.
+SNiPER:NonDLE.OutputEventPoolDataToFile DEBUG: Global function OutputEventPoolDataToFile says hello.
+SNiPER:NonDLE.OutputEventPoolDataToFile DEBUG: Global function OutputEventPoolDataToFile step1.
+SNiPER:NonDLE.BuildDAG         DEBUG: Class ALPDAG function BuildDAG implys data node EventEndData0 has been added!
+SNiPER:NonDLE.BuildDAG         DEBUG: Class ALPDAG function BuildDAG implys data node EventEndData1 has been added!
+SNiPER:NonDLE.ALPDAGTunnelEventContext DEBUG: Class ALPDAGTunnelEventContext function ALPDAGTunnelEventContext() says hello.
+SNiPER:NonDLE.initialize        INFO: Activating event loop thread......................
+SNiPER:NonDLE.initialize        INFO: Waiting for thread to active.............
+SNiPER:NonDLE.ActivateTunnelEventLoopThread  INFO: The Event Loop thread starts working......
+SNiPER:NonDLE.RequestReadyStateEventGroup DEBUG: Class ALPDAGTunnelDog function RequestReadyStateEventGroup() says hello.
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool(void* arg) step  new file input begin.
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.RequestReadyStateEventGroup DEBUG: Class ALPDAGTunnelDog function RequestReadyStateEventGroup() step1.
+SNiPER:NonDLE.RequestReadyStateEventGroup DEBUG: Class ALPDAGTunnelDog function RequestReadyStateEventGroup() step2.
+SNiPER:NonDLE.FileOccurAlteration DEBUG: Class ALPDAGTunnelEventContext function FileOccurAlteration says hello.
+SNiPER:NonDLE.SetFileContext   DEBUG: Class ALPDAGTunnelEventContext function SetFileContext says hello.
+SNiPER:NonDLE.RequestReadyStateEventGroup DEBUG: Class ALPDAGTunnelDog function RequestReadyStateEventGroup() step3.
+SNiPER:NonDLE.PushNewEventInTunnel DEBUG: Class ALPDAGTunnelDog function PushNewEventInTunnel says hello.
+SNiPER:NonDLE.EventToProcess   DEBUG: Class ALPEventGroup function EventToProcess implys m_Running_EventIndex=0, m_Inputting_EventIndex=2000
+SNiPER:NonDLE.PushNewEventInTunnel DEBUG: Class ALPDAGTunnelDog function PushNewEventInTunnel step1.
+SNiPER:NonDLE.PushNewEventInTunnel DEBUG: Class ALPDAGTunnelDog function PushNewEventInTunnel step2.
+SNiPER:NonDLE.PopCurrentEventFromTunnel DEBUG: Class ALPDAGTunnelDog function PopCurrentEventFromTunnel says hello.
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg4
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg4
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg1
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg1
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg2
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg2
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg5
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg5
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg3
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg3
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=Alg6
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says byebye.algname=Alg6
+SNiPER:NonDLE.GetCurrentEventDataPtr DEBUG: Class ALPDAGTunnelDog function GetCurrentEventDataPtr says hello.
+SNiPER:NonDLE.execute          DEBUG: Class ALPAlgorithmTask function execute() imply step3.
+Class ALPDAGTunnel function ActiveOutputDataNodesSet says hello. algname=ALPDAGTunnelEventEndAlg
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.EventToInput     DEBUG: Function ALPEventGroup::EventToInput() step1.m_Inputting_EventIndex=2000
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool implys current group is full!
+SNiPER:NonDLE.InputFileDataToEventPool DEBUG: Function InputFileDataToEventPool(void* arg) new file input ends.
